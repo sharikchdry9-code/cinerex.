@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cinerex — Watch Movies & Shows</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <h1 class="logo">CINEREX</h1>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">TV Shows</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">New & Popular</a></li>
+        <li><a href="#">My List</a></li>
+      </ul>
+    </div>
+    <div class="nav-right">
+      <input type="text" placeholder="Search..." class="search-box">
+      <img src="https://i.pravatar.cc/40" alt="profile" class="profile-icon">
+    </div>
+  </nav>
+
+  <!-- HERO BANNER -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Stranger Things</h1>
+      <p class="hero-desc">
+        When a young boy vanishes, a small town uncovers a mystery involving
+        secret experiments, terrifying supernatural forces and one strange little girl.
+      </p>
+      <div class="hero-buttons">
+        <button class="btn-play">▶ Play</button>
+        <button class="btn-info">ℹ More Info</button>
+      </div>
+    </div>
+    <div class="hero-fade"></div>
+  </header>
+
+  <!-- MOVIE ROWS -->
+  <section class="row">
+    <h2>Trending Now</h2>
+    <div class="row-posters" id="trending"></div>
+  </section>
+
+  <section class="row">
+    <h2>Top Rated</h2>
+    <div class="row-posters" id="toprated"></div>
+  </section>
+
+  <section class="row">
+    <h2>Action Movies</h2>
+    <div class="row-posters" id="action"></div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Cinerex. All rights reserved. | Made with ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
