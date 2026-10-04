@@ -265,3 +265,14 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
+
+.logo-img {
+  height: 40px;
+  width: auto;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.logo-img:hover {
+  transform: scale(1.05);
+}
